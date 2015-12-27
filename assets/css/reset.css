@@ -20,3 +20,6 @@ html{
 .nopadding{
 	padding: 0px !important;
 }
+.navbar{
+	border-radius: 0px;
+}
