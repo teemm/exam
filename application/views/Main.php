@@ -1,111 +1,27 @@
 
 
-
 <div class="container">
 <div class="row">
+<?php foreach($result['results'] as $res) : ?>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="<?php echo base_url('assets/images/1.jpg');?>" alt="...">
+      <img src="<?php echo $res['thumbnail_standard'];?>" alt="...">
       <div class="caption">
-           <h3>Thumbnail label</h3>
-        <p>turkey</p>
+           <h3><?php echo $res['title'] ?></h3>
+        <p><?php echo $res['section'] ?></p>
         <hr>
-         <h4>phone</h4>
-        <p>599 28 68 54</p>
-        <h4>new busines</h4>
-        <a href="#">more</a>
+         <h4>source</h4>
+        <p><?php echo $res['source'] ?></p>
+        <h4>type</h4>
+        <p><?php echo $res['item_type'] ?></p>
         <hr>
          <p><a href="#" class="btn btn-primary" role="button">See More</a></p>
       </div>
     </div>
   </div>
+<?php endforeach; ?> 
 
-    <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="<?php echo base_url('assets/images/2.jpg');?>" alt="...">
-      <div class="caption">
-           <h3>Thumbnail label</h3>
-        <p>turkey</p>
-        <hr>
-         <h4>phone</h4>
-        <p>599 28 68 54</p>
-        <h4>new busines</h4>
-        <a href="#">more</a>
-        <hr>
-        <p><a href="#" class="btn btn-primary" role="button">See More</a></p>
-      </div>
-    </div>
-  </div>
-
-
-    <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="<?php echo base_url('assets/images/2.jpg');?>" alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>turkey</p>
-        <hr>
-         <h4>phone</h4>
-        <p>599 28 68 54</p>
-        <h4>new busines</h4>
-        <a href="#">more</a>
-        <hr>
-        <p><a href="#" class="btn btn-primary" role="button">See More</a></p>
-      </div>
-    </div>
-  </div>
-
-    <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="<?php echo base_url('assets/images/1.jpg');?>" alt="...">
-      <div class="caption">
-           <h3>Thumbnail label</h3>
-        <p>turkey</p>
-        <hr>
-         <h4>phone</h4>
-        <p>599 28 68 54</p>
-        <h4>new busines</h4>
-        <a href="#">more</a>
-        <hr>
-         <p><a href="#" class="btn btn-primary" role="button">See More</a></p>
-      </div>
-    </div>
-  </div>
-
-    <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="<?php echo base_url('assets/images/1.jpg');?>" alt="...">
-      <div class="caption">
-           <h3>Thumbnail label</h3>
-        <p>turkey</p>
-        <hr>
-         <h4>phone</h4>
-        <p>599 28 68 54</p>
-        <h4>new busines</h4>
-        <a href="#">more</a>
-        <hr>
-         <p><a href="#" class="btn btn-primary" role="button">See More</a></p>
-      </div>
-    </div>
-  </div>
-
-    <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="<?php echo base_url('assets/images/1.jpg');?>" alt="...">
-      <div class="caption">
-           <h3>Thumbnail label</h3>
-        <p>turkey</p>
-        <hr>
-         <h4>phone</h4>
-        <p>599 28 68 54</p>
-        <h4>new busines</h4>
-        <a href="#">more</a>
-        <hr>
-         <p><a href="#" class="btn btn-primary" role="button">See More</a></p>
-      </div>
-    </div>
+    
   </div>
   </div>
-  </div>
-
 

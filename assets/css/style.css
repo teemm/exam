@@ -125,4 +125,13 @@
     margin-right: auto;
     margin-left: auto;
 }
-    
+.thumbnail a>img, .thumbnail>img{
+	width: 200px;
+    height: 200px
+    }
+.thumbnail{
+	height: 600px
+}
+.persons{
+	height: 500px;
+}

@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Model extends CI_Model{
-	public function main(){
+	public function Main(){
 
 		$url="http://api.nytimes.com/svc/news/v3/content/all/all/700.json?api-key=f7461a77a38ac1ea94c503349d839fe6:13:73589106";
 		//  Initiate curl
@@ -17,7 +17,7 @@ class Model extends CI_Model{
 		$result=curl_exec($ch);
 		// Closing
 		curl_close($ch);
-
-		return $result;
+		return json_decode($result,true);
+		// return $result;
 	}
 }
