@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" href="<?php echo base_url('/') ?>">Brand</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -24,8 +24,8 @@
         <li><a href="#">Link</a></li>
         <li><a href="#">Link</a></li>
         <li><a href="#">Link</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#about">About Us</a></li>
         
       </ul>
     </div><!-- /.navbar-collapse -->

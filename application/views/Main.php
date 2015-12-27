@@ -1,6 +1,7 @@
 
 
 <div class="container">
+<h2 class="text-center" id="news">news</h2>
 <div class="row">
 <?php foreach($result['results'] as $res) : ?>
   <div class="col-sm-6 col-md-4">
@@ -24,4 +25,5 @@
     
   </div>
   </div>
+  <hr>
 

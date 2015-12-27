@@ -105,6 +105,8 @@
 }
 .centerr{
 	margin: 0 auto;
+	width: 200px;
+	height: 200px;
 }
 .jumbotron1{
 	font-size: 14px;
@@ -132,6 +134,6 @@
 .thumbnail{
 	height: 600px
 }
-.persons{
+/*.persons{
 	height: 500px;
-}
+}*/
