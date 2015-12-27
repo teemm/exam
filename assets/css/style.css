@@ -26,6 +26,7 @@
     background-size: cover;	
 	width: 100%;
 	height: 700px;
+	overflow: hidden;
 }
 .videoBlcok .videoButton{
 	background: #00A996 url("../images/play.png");
@@ -38,26 +39,67 @@
 .videoBlcok .videoButton:hover{
 	background-color: #FF233D;
 }
-@media screen and (min-width: 960px) {
-	#ytvideo .embed-video {
-	    position: relative;
-	    padding-bottom: 56.25%;
-	    padding-top: 0px;
-	    height: 0;
-	    overflow: hidden;
-	    float: right;
-	    width: 100%;
-	}
-	#ytvideo {
-	    width: 80%;
-	    height: auto;
-	    overflow: hidden;
-	    margin: 0 auto;
+#ytvideo .embed-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+    float: right;
+    width: 100%;
+}
+#ytvideo {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
 
-	}
+}
+@media screen and (min-width: 960px) {
+
 	.embed-video iframe{
 		top: 60% !important;	
 		width: 100% !important;
 		height: 100% !important;
+	}	
+}
+@media screen and (min-width: 560px) and (max-width:959px){
+	.embed-video iframe{
+		top: 60% !important;	
+		width: 100% !important;
+		height: 100% !important;
+	}		
+	.videoBlcok{
+		height: 400px;
+	}
+}
+@media screen and (min-width: 300px) and (max-width:559px){
+	.embed-video iframe{
+		top: 40% !important;	
+		width: 100% !important;
+		height: 60% !important;
+	}		
+	.videoBlcok{
+		height: 200px;
+	}
+}
+@media screen and (min-width: 961px) and (max-width:1500px){
+	.embed-video iframe{
+		top: 60% !important;	
+		width: 100% !important;
+		height: 100% !important;
+	}		
+	.videoBlcok{
+		height: 750px;
+	}
+}
+@media screen and (min-width: 1501px) and (max-width:1920px){
+	.embed-video iframe{
+		top: 40% !important;	
+		width: 100% !important;
+		height: 75% !important;
+	}		
+	.videoBlcok{
+		height: 750px;
 	}
 }
